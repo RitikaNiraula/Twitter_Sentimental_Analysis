@@ -7,6 +7,7 @@ This project performs sentiment analysis on tweets collected from Kaggle using n
 ## 📄 Dataset
 
 The dataset consists of tweets labeled as **positive** or **negative** sentiments, sourced from Kaggle.
+Dataset URL: https://www.kaggle.com/datasets/kazanova/sentiment140
 
 ---
 
