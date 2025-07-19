@@ -1,21 +1,49 @@
-Twitter Sentiment Analysis
-This project performs sentiment analysis on tweet data sourced from Kaggle using basic natural language processing techniques and a logistic regression model.
-Dataset
-The dataset used was collected from Kaggle, consisting of tweets labeled as positive or negative.
-Features
-Text Cleaning: Removal of non-alphabetic characters, lowercasing
-Stopword Removal using NLTK
-Word Stemming with Porter Stemmer
-TF-IDF Vectorization
-Sentiment Classification using Logistic Regression
-Model Evaluation with Accuracy Score
-Libraries Used
-numpy
-pandas
-re
-nltk.corpus.stopwords
-nltk.stem.porter.PorterStemmer
-sklearn.feature_extraction.text.TfidfVectorizer
-sklearn.model_selection.train_test_split
-sklearn.linear_model.LogisticRegression
-sklearn.metrics.accuracy_score
+# 🐦 Twitter Sentiment Analysis
+
+This project performs sentiment analysis on tweets collected from Kaggle using natural language processing (NLP) techniques and a logistic regression classifier.
+
+---
+
+## 📄 Dataset
+
+The dataset consists of tweets labeled as **positive** or **negative** sentiments, sourced from Kaggle.
+
+---
+
+## 🧩 Features & Preprocessing Steps
+
+- **Text Cleaning:** Removal of non-alphabetic characters and conversion to lowercase  
+- **Stopword Removal:** Using NLTK's stopword list  
+- **Word Stemming:** Porter Stemmer to reduce words to their root form  
+- **TF-IDF Vectorization:** Converts text data into numerical features for modeling  
+
+---
+
+## 🤖 Model
+
+- **Classifier:** Logistic Regression  
+- **Evaluation Metric:** Accuracy Score  
+
+---
+
+## 🛠️ Libraries Used
+
+- `numpy`  
+- `pandas`  
+- `re` (regular expressions)  
+- `nltk.corpus.stopwords`  
+- `nltk.stem.porter.PorterStemmer`  
+- `sklearn.feature_extraction.text.TfidfVectorizer`  
+- `sklearn.model_selection.train_test_split`  
+- `sklearn.linear_model.LogisticRegression`  
+- `sklearn.metrics.accuracy_score`  
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/twitter-sentiment-analysis.git
+cd twitter-sentiment-analysis
