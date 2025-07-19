@@ -40,10 +40,3 @@ The dataset consists of tweets labeled as **positive** or **negative** sentiment
 
 ---
 
-## 🚀 How to Run
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/twitter-sentiment-analysis.git
-cd twitter-sentiment-analysis
